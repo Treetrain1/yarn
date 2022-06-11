@@ -367,7 +367,7 @@ CLASS net/minecraft/class_1309 net/minecraft/entity/LivingEntity
 	METHOD method_6010 swimUpward (Lnet/minecraft/class_6862;)V
 		ARG 1 fluid
 	METHOD method_6011 getHurtSound (Lnet/minecraft/class_1282;)Lnet/minecraft/class_3414;
-		ARG 1 source
+		ARG 1 serverPlayerEntity
 	METHOD method_6012 clearStatusEffects ()Z
 	METHOD method_6013 playHurtSound (Lnet/minecraft/class_1282;)V
 		ARG 1 source

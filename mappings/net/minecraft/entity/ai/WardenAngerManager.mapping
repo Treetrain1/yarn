@@ -2,6 +2,7 @@ CLASS net/minecraft/class_7254 net/minecraft/entity/ai/WardenAngerManager
 	FIELD field_38128 maxAnger I
 	FIELD field_38129 angerDecreasePerTick I
 	FIELD field_38130 suspectsToAngerLevel Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	FIELD field_38733 conversionDelay I
 	FIELD field_38734 suspects Ljava/util/ArrayList;
 	FIELD field_38735 suspectUuidsToAngerLevel Lit/unimi/dsi/fastutil/objects/Object2IntMap;
 	FIELD field_38736 updateTimer I
@@ -50,6 +51,6 @@ CLASS net/minecraft/class_7254 net/minecraft/entity/ai/WardenAngerManager
 		ARG 1 suspectUuidsToAngerLevel
 	METHOD method_43998 updatePrimeAnger ()V
 	CLASS class_7379 SuspectComparator
-		METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
 			ARG 1 first
 			ARG 2 second

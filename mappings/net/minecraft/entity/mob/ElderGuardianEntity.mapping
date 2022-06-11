@@ -1,3 +1,10 @@
 CLASS net/minecraft/class_1550 net/minecraft/entity/mob/ElderGuardianEntity
 	FIELD field_17492 SCALE F
+	FIELD field_38115 MINING_FATIGUE_RADIUS I
+	FIELD field_38116 MINING_FATIGUE_DURATION I
+	FIELD field_38117 MINING_FATIGUE_AMPLIFIER I
+	FIELD field_38118 MINING_FATIGUE_DISPLAY_TIME I
+	FIELD field_38119 MINING_FATIGUE_INTERVAL I
 	METHOD method_26909 createElderGuardianAttributes ()Lnet/minecraft/class_5132$class_5133;
+	METHOD method_7011 (Lnet/minecraft/class_3222;)V
+		ARG 1 serverPlayerEntity

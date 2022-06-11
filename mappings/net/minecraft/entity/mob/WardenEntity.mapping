@@ -1,9 +1,31 @@
 CLASS net/minecraft/class_7260 net/minecraft/entity/mob/WardenEntity
+	FIELD field_31857 projectileTickThreshold I
 	FIELD field_38135 emergingAnimationState Lnet/minecraft/class_7094;
 	FIELD field_38136 diggingAnimationState Lnet/minecraft/class_7094;
 	FIELD field_38137 attackingAnimationState Lnet/minecraft/class_7094;
+	FIELD field_38138 LOGGER Lorg/slf4j/Logger;
+	FIELD field_38139 VIBRATION_RANGE I
 	FIELD field_38141 angerManager Lnet/minecraft/class_7254;
+	FIELD field_38142 VIBRATION_COOLDOWN I
+	FIELD field_38143 WARDEN_HEALTH I
+	FIELD field_38144 MOVEMENT_SPEED_FIGHT F
+	FIELD field_38145 WARDEN_KNOCKBACK_RESISTANCE F
+	FIELD field_38146 WARDEN_ATTACK_KNOCKBACK F
+	FIELD field_38147 GENERIC_ATTACK_DAMAGE F
+	FIELD field_38147 WARDEN_ATTACK_DAMAGE I
 	FIELD field_38148 ANGER Lnet/minecraft/class_2940;
+	FIELD field_38149 DARKNESS_DISPLAY_TIME I
+	FIELD field_38150 DARKNESS_TIME I
+	FIELD field_38151 DARKNESS_RANGE I
+	FIELD field_38152 DARKNESS_APPLY_INTERVAL I
+	FIELD field_38153 ANGER_TICK_DELAY I
+	FIELD field_38155 STARTING_ANGER I
+	FIELD field_38156 PROJECTILE_ANGER_INCREASE I
+	FIELD field_38157 PROJECTILE_COOLDOWN I
+	FIELD field_38158 TOUCH_COOLDOWN I
+	FIELD field_38159 DIGGING_PARTICLES I
+	FIELD field_38160 DIGGING_PARTICLE_DURATION F
+	FIELD field_38161 DIGGING_PARTICLE_OFFSET F
 	FIELD field_38162 tendrilPitch I
 	FIELD field_38163 lastTendrilPitch I
 	FIELD field_38164 heartbeatCooldown I
@@ -12,6 +34,9 @@ CLASS net/minecraft/class_7260 net/minecraft/entity/mob/WardenEntity
 	FIELD field_38168 roaringAnimationState Lnet/minecraft/class_7094;
 	FIELD field_38169 sniffingAnimationState Lnet/minecraft/class_7094;
 	FIELD field_38859 chargingSonicBoomAnimationState Lnet/minecraft/class_7094;
+	FIELD field_38860 SONIC_BOOM_INIT_TICKS I
+	FIELD field_39117 DAMAGE_ANGER_INCREASE I
+	FIELD field_39305 PROJECTILE_ANGER_RANGE I
 	METHOD method_42202 getHeartPitch (F)F
 		ARG 1 tickDelta
 	METHOD method_42204 addDarknessToClosePlayers (Lnet/minecraft/class_3218;Lnet/minecraft/class_243;Lnet/minecraft/class_1297;I)V

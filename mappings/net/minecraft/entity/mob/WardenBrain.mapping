@@ -2,8 +2,13 @@ CLASS net/minecraft/class_7261 net/minecraft/entity/mob/WardenBrain
 	FIELD field_38171 EMERGE_DURATION I
 	FIELD field_38172 ROAR_DURATION I
 	FIELD field_38173 DIG_COOLDOWN I
+	FIELD field_38175 idleSpeed F
+	FIELD field_38176 investigateSpeed F
+	FIELD field_38177 fightSpeed F
+	FIELD field_38178 ATTACK_COOLDOWN I
 	FIELD field_38179 DIG_DURATION I
 	FIELD field_38180 SNIFF_DURATION I
+	FIELD field_38181 disturbanceForgetTime I
 	FIELD field_38182 RESET_DIG_COOLDOWN_TASK Lnet/minecraft/class_4097;
 	FIELD field_38416 SENSORS Ljava/util/List;
 	FIELD field_38417 MEMORY_MODULES Ljava/util/List;
@@ -18,6 +23,7 @@ CLASS net/minecraft/class_7261 net/minecraft/entity/mob/WardenBrain
 		ARG 1 entity
 	METHOD method_42230 create (Lnet/minecraft/class_7260;Lcom/mojang/serialization/Dynamic;)Lnet/minecraft/class_4095;
 		ARG 0 warden
+		ARG 1 dynamic
 	METHOD method_42231 lookAtDisturbance (Lnet/minecraft/class_7260;Lnet/minecraft/class_2338;)V
 		ARG 0 warden
 		ARG 1 pos
